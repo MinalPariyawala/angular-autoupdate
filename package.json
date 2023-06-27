@@ -1,6 +1,11 @@
 {
   "name": "Autoupdate",
-  "version": "0.0.0",
+  "version": "0.0.5",
+  "description": "This is demo project for angular electron auto-update",
+  "author": {
+    "name": "Minal Pariyawala",
+    "email": "pariyawalaminal96@gmail.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "npm-run-all -p electron:serve ng:serve",
@@ -21,6 +26,13 @@
       "repo": "angular-autoupdate"
     }]
   },
+  "files": [
+    "**/*",
+    "!**/*.ts",
+    "!*.map",
+    "!package.json",
+    "!package-lock.json"
+  ],
   "dependencies": {
     "@angular/animations": "^15.2.0",
     "@angular/common": "^15.2.0",
@@ -30,6 +42,7 @@
     "@angular/platform-browser": "^15.2.0",
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
+    "electron-log": "^4.4.8",
     "electron-updater": "^6.1.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -42,7 +55,6 @@
     "@types/jasmine": "~4.3.0",
     "electron": "^25.2.0",
     "electron-builder": "^24.4.0",
-    "electron-log": "^4.4.8",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",

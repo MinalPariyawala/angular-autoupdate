@@ -1,1 +1,311 @@
 [2023-06-27 11:48:14.597] [info]  hello
+[2023-06-27 15:34:11.847] [info]  hello
+[2023-06-27 15:35:54.308] [info]  hello
+[2023-06-27 15:35:54.859] [info]  checking-for-update
+[2023-06-27 15:44:04.715] [info]  hello
+[2023-06-27 15:44:04.837] [info]  checking-for-update
+[2023-06-27 15:44:07.339] [info]  update-available
+[2023-06-27 15:44:09.614] [info]  download-progress
+[2023-06-27 15:44:10.613] [info]  download-progress
+[2023-06-27 15:44:11.613] [info]  download-progress
+[2023-06-27 15:44:12.614] [info]  download-progress
+[2023-06-27 15:44:13.637] [info]  download-progress
+[2023-06-27 15:44:14.637] [info]  download-progress
+[2023-06-27 15:44:15.638] [info]  download-progress
+[2023-06-27 15:44:16.640] [info]  download-progress
+[2023-06-27 15:44:17.640] [info]  download-progress
+[2023-06-27 15:44:18.640] [info]  download-progress
+[2023-06-27 15:44:19.640] [info]  download-progress
+[2023-06-27 15:44:20.211] [info]  download-progress
+[2023-06-27 15:44:20.217] [info]  update-downloaded
+[2023-06-27 15:45:54.201] [info]  hello
+[2023-06-27 16:27:38.001] [info]  application version: 0.0.3
+[2023-06-27 16:27:38.007] [info]  hello
+[2023-06-27 16:32:41.109] [info]  application version: 0.0.3
+[2023-06-27 16:32:41.139] [info]  hello
+[2023-06-27 16:32:41.633] [info]  checking-for-update
+[2023-06-27 16:32:43.970] [info]  update-not-available
+[2023-06-27 16:33:33.716] [info]  application version: 0.0.3
+[2023-06-27 16:33:33.720] [info]  hello
+[2023-06-27 16:33:33.812] [info]  checking-for-update
+[2023-06-27 16:33:35.637] [info]  update-not-available
+[2023-06-27 16:37:04.238] [info]  application version: 0.0.3
+[2023-06-27 16:37:04.243] [info]  hello
+[2023-06-27 16:37:04.327] [info]  checking-for-update
+[2023-06-27 16:37:07.014] [info]  update-available
+[2023-06-27 16:37:10.767] [info]  download-progress {
+  total: 42438315,
+  delta: 10322,
+  transferred: 10322,
+  percent: 0.024322360583826193,
+  bytesPerSecond: 7784
+}
+[2023-06-27 16:37:10.837] [info]  download-progress {
+  total: 42438315,
+  delta: 37207,
+  transferred: 47529,
+  percent: 0.11199549275224524,
+  bytesPerSecond: 34047
+}
+[2023-06-27 16:37:11.200] [info]  download-progress {
+  total: 42438315,
+  delta: 52124,
+  transferred: 62446,
+  percent: 0.14714533317357203,
+  bytesPerSecond: 35501
+}
+[2023-06-27 16:37:11.775] [info]  download-progress {
+  total: 42438315,
+  delta: 233224,
+  transferred: 243546,
+  percent: 0.5738823513610283,
+  bytesPerSecond: 104347
+}
+[2023-06-27 16:37:12.776] [info]  download-progress {
+  total: 42438315,
+  delta: 1653759,
+  transferred: 1897305,
+  percent: 4.470735937560198,
+  bytesPerSecond: 569078
+}
+[2023-06-27 16:37:13.776] [info]  download-progress {
+  total: 42438315,
+  delta: 2097152,
+  transferred: 3994457,
+  percent: 9.412383597228118,
+  bytesPerSecond: 921443
+}
+[2023-06-27 16:37:14.777] [info]  download-progress {
+  total: 42438315,
+  delta: 2424832,
+  transferred: 6419289,
+  percent: 15.12616370371915,
+  bytesPerSecond: 1203015
+}
+[2023-06-27 16:37:15.797] [info]  download-progress {
+  total: 42438315,
+  delta: 262144,
+  transferred: 6681433,
+  percent: 15.743869661177639,
+  bytesPerSecond: 1051366
+}
+[2023-06-27 16:37:16.797] [info]  download-progress {
+  total: 42438315,
+  delta: 1458167,
+  transferred: 8139600,
+  percent: 19.179837842289448,
+  bytesPerSecond: 1106525
+}
+[2023-06-27 16:37:17.798] [info]  download-progress {
+  total: 42438315,
+  delta: 3047442,
+  transferred: 11187042,
+  percent: 26.36071201224648,
+  bytesPerSecond: 1338643
+}
+[2023-06-27 16:37:18.799] [info]  download-progress {
+  total: 42438315,
+  delta: 3768302,
+  transferred: 14955344,
+  percent: 35.24019273621019,
+  bytesPerSecond: 1598135
+}
+[2023-06-27 16:37:19.799] [info]  download-progress {
+  total: 42438315,
+  delta: 6045687,
+  transferred: 21001031,
+  percent: 49.486015172845576,
+  bytesPerSecond: 2027518
+}
+[2023-06-27 16:37:20.800] [info]  download-progress {
+  total: 42438315,
+  delta: 6357019,
+  transferred: 27358050,
+  percent: 64.46544826296709,
+  bytesPerSecond: 2408491
+}
+[2023-06-27 16:37:21.800] [info]  download-progress {
+  total: 42438315,
+  delta: 6504439,
+  transferred: 33862489,
+  percent: 79.79225612515482,
+  bytesPerSecond: 2739905
+}
+[2023-06-27 16:37:22.800] [info]  download-progress {
+  total: 42438315,
+  delta: 7290871,
+  transferred: 41153360,
+  percent: 96.97218185971805,
+  bytesPerSecond: 3080572
+}
+[2023-06-27 16:37:22.935] [info]  download-progress {
+  total: 42438315,
+  delta: 1027554,
+  transferred: 42180914,
+  percent: 99.39347026384058,
+  bytesPerSecond: 3125901
+}
+[2023-06-27 16:37:23.510] [info]  download-progress {
+  total: 42438315,
+  delta: 1149447,
+  transferred: 42302807,
+  percent: 99.68069420286832,
+  bytesPerSecond: 3006810
+}
+[2023-06-27 16:37:23.875] [info]  download-progress {
+  total: 42438315,
+  delta: 1166736,
+  transferred: 42320096,
+  percent: 99.7214333321198,
+  bytesPerSecond: 2931973
+}
+[2023-06-27 16:37:24.249] [info]  download-progress {
+  total: 42438315,
+  delta: 1182208,
+  transferred: 42335568,
+  percent: 99.75789095302206,
+  bytesPerSecond: 2858966
+}
+[2023-06-27 16:37:24.255] [info]  download-progress {
+  total: 42438315,
+  delta: 102747,
+  transferred: 42438315,
+  percent: 100,
+  bytesPerSecond: 2864744
+}
+[2023-06-27 16:37:24.296] [info]  update-downloaded
+[2023-06-27 16:37:52.630] [info]  application version: 0.0.4
+[2023-06-27 16:37:52.635] [info]  hello
+[2023-06-27 16:37:52.832] [info]  checking-for-update
+[2023-06-27 16:37:53.689] [info]  application version: 0.0.4
+[2023-06-27 16:37:53.694] [info]  hello
+[2023-06-27 16:37:53.772] [info]  checking-for-update
+[2023-06-27 16:37:54.687] [info]  update-not-available
+[2023-06-27 16:37:55.721] [info]  update-not-available
+[2023-06-27 16:38:12.462] [info]  application version: 0.0.4
+[2023-06-27 16:38:12.467] [info]  hello
+[2023-06-27 16:38:12.550] [info]  checking-for-update
+[2023-06-27 16:38:14.182] [info]  update-not-available
+[2023-06-27 16:38:46.457] [info]  application version: 0.0.3
+[2023-06-27 16:38:46.462] [info]  hello
+[2023-06-27 16:38:46.582] [info]  checking-for-update
+[2023-06-27 16:38:47.919] [info]  update-available
+[2023-06-27 16:38:48.239] [info]  update-downloaded
+[2023-06-27 16:39:09.453] [info]  application version: 0.0.4
+[2023-06-27 16:39:09.465] [info]  hello
+[2023-06-27 16:39:09.667] [info]  checking-for-update
+[2023-06-27 16:39:11.330] [info]  update-not-available
+[2023-06-27 16:45:20.483] [info]  application version: 0.0.4
+[2023-06-27 16:45:20.489] [info]  hello
+[2023-06-27 16:45:20.582] [info]  checking-for-update
+[2023-06-27 16:45:23.082] [info]  update-available
+[2023-06-27 16:45:26.197] [info]  download-progress {
+  total: 42416316,
+  delta: 47536,
+  transferred: 47536,
+  percent: 0.11207008171100952,
+  bytesPerSecond: 50143
+}
+[2023-06-27 16:45:26.524] [info]  download-progress {
+  total: 42416316,
+  delta: 62453,
+  transferred: 62453,
+  percent: 0.14723815241285923,
+  bytesPerSecond: 48983
+}
+[2023-06-27 16:45:27.032] [info]  download-progress {
+  total: 42416316,
+  delta: 72021,
+  transferred: 72021,
+  percent: 0.16979550982221087,
+  bytesPerSecond: 40393
+}
+[2023-06-27 16:45:28.048] [info]  download-progress {
+  total: 42416316,
+  delta: 9227813,
+  transferred: 9299834,
+  percent: 21.92513371505437,
+  bytesPerSecond: 3323743
+}
+[2023-06-27 16:45:29.047] [info]  download-progress {
+  total: 42416316,
+  delta: 11239433,
+  transferred: 20539267,
+  percent: 48.42303372126896,
+  bytesPerSecond: 5407917
+}
+[2023-06-27 16:45:30.048] [info]  download-progress {
+  total: 42416316,
+  delta: 9175049,
+  transferred: 29714316,
+  percent: 70.05397639908189,
+  bytesPerSecond: 6191772
+}
+[2023-06-27 16:45:31.048] [info]  download-progress {
+  total: 42416316,
+  delta: 9732096,
+  transferred: 39446412,
+  percent: 92.99820380440394,
+  bytesPerSecond: 6802278
+}
+[2023-06-27 16:45:31.329] [info]  download-progress {
+  total: 42416316,
+  delta: 2745083,
+  transferred: 42191495,
+  percent: 99.46996575563045,
+  bytesPerSecond: 6939391
+}
+[2023-06-27 16:45:32.114] [info]  download-progress {
+  total: 42416316,
+  delta: 2754501,
+  transferred: 42200913,
+  percent: 99.49216947553862,
+  bytesPerSecond: 6147256
+}
+[2023-06-27 16:45:32.125] [info]  download-progress {
+  total: 42416316,
+  delta: 112422,
+  transferred: 42313335,
+  percent: 99.75721370993182,
+  bytesPerSecond: 6153772
+}
+[2023-06-27 16:45:32.751] [info]  download-progress {
+  total: 42416316,
+  delta: 129711,
+  transferred: 42330624,
+  percent: 99.79797396831917,
+  bytesPerSecond: 5642579
+}
+[2023-06-27 16:45:33.079] [info]  download-progress {
+  total: 42416316,
+  delta: 143610,
+  transferred: 42344523,
+  percent: 99.8307420191796,
+  bytesPerSecond: 5407985
+}
+[2023-06-27 16:45:33.396] [info]  download-progress {
+  total: 42416316,
+  delta: 159565,
+  transferred: 42360478,
+  percent: 99.86835726138969,
+  bytesPerSecond: 5199519
+}
+[2023-06-27 16:45:33.719] [info]  download-progress {
+  total: 42416316,
+  delta: 195357,
+  transferred: 42396270,
+  percent: 99.95273988434073,
+  bytesPerSecond: 5005463
+}
+[2023-06-27 16:45:33.722] [info]  download-progress {
+  total: 42416316,
+  delta: 20046,
+  transferred: 42416316,
+  percent: 100,
+  bytesPerSecond: 5006056
+}
+[2023-06-27 16:45:33.729] [info]  update-downloaded
+[2023-06-27 16:45:56.990] [info]  application version: 0.0.5
+[2023-06-27 16:45:56.995] [info]  hello
+[2023-06-27 16:45:57.163] [info]  checking-for-update
+[2023-06-27 16:45:59.040] [info]  update-not-available

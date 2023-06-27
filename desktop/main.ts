@@ -5,6 +5,7 @@ import { autoUpdater } from 'electron-updater';
 import * as log from "electron-log";
 
 log.transports.file.resolvePath = () => path.join('C:/Users/Administrator/Desktop/minal/angular-autoupdate/', 'logs/main.log');
+log.info('application version:', app.getVersion());
 log.info('hello');
 
 export let win: any;
@@ -24,17 +25,28 @@ app.on('ready', () => {
 })
 
 autoUpdater.on('update-available', () => {
-    log.info('update-available')
+    log.info('update-available');
 })
 
 autoUpdater.on('checking-for-update', () => {
-    log.info('checking-for-update')
+    log.info('checking-for-update');
 })
 
-autoUpdater.on('download-progress', () => {
-    log.info('download-progress')
+autoUpdater.on('download-progress', (progress) => {
+    log.info('download-progress', progress);
 })
 
 autoUpdater.on('update-downloaded', () => {
-    log.info('update-downloaded')
+    log.info('update-downloaded');
+    setTimeout(() => {
+        autoUpdater.quitAndInstall();
+    }, 6000);
+})
+
+autoUpdater.on('update-not-available', () => {
+    log.info('update-not-available');
+})
+
+autoUpdater.on('error', (err) => {
+    log.info('error', err);
 })
