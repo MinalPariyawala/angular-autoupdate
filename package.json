@@ -24,7 +24,10 @@
       "provider": "github",
       "owner": "MinalPariyawala",
       "repo": "angular-autoupdate"
-    }]
+    }],
+    "mac": {
+      "target": ["dmg", "zip"]
+    }
   },
   "files": [
     "**/*",
