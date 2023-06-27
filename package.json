@@ -8,17 +8,20 @@
     "ng:serve": "ng serve --port 4201 -c web -o",
     "electron:serve-tsc": "tsc -p tsconfig.serve.json",
     "electron:serve": "wait-on tcp:4201 && npm run electron:serve-tsc && electron .",
+    "package": "electron-builder",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
   "main": "desktop/main.js",
   "private": true,
   "build": {
-    "publish": [{
-      "provider": "github",
-      "owner": "MinalPariyawala",
-      "repo": ""
-    }]
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "MinalPariyawala",
+        "repo": "angular-autoupdate"
+      }
+    ]
   },
   "dependencies": {
     "@angular/animations": "^15.2.0",
@@ -39,6 +42,7 @@
     "@angular/compiler-cli": "^15.2.0",
     "@types/jasmine": "~4.3.0",
     "electron": "^25.2.0",
+    "electron-builder": "^24.4.0",
     "electron-log": "^4.4.8",
     "electron-updater": "^6.1.1",
     "jasmine-core": "~4.5.0",
