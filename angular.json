@@ -31,8 +31,7 @@
           },
           "configurations": {
             "production": {
-              "budgets": [
-                {
+              "budgets": [{
                   "type": "initial",
                   "maximumWarning": "500kb",
                   "maximumError": "1mb"
@@ -52,6 +51,16 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "web": {
+              "optimization": false,
+              "outputHashing": "none",
+              "sourceMap": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": false
             }
           },
           "defaultConfiguration": "production"
@@ -64,6 +73,9 @@
             },
             "development": {
               "browserTarget": "angular-autoupdate:build:development"
+            },
+            "web": {
+              "browserTarget": "angular-autoupdate:build:web"
             }
           },
           "defaultConfiguration": "development"
@@ -94,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b0760a45-856f-4eb2-abb0-89512f8ccf76"
   }
 }
