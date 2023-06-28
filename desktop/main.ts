@@ -9,9 +9,13 @@ const args = process.argv.slice(1);
 const serve = args.some(function (val) {
     return val === '--serve';
 });
+
 export let win: any;
+let updater = null;
 let progressBar;
-autoUpdater.autoDownload = false;
+
+
+// autoUpdater.autoDownload = false;
 
 log.transports.file.resolvePath = () => path.join('C:/Users/Administrator/Desktop/minal/angular-autoupdate/', 'logs/main.log');
 log.info('application version:', app.getVersion());
@@ -53,13 +57,12 @@ function createWindow() {
         win = null;
     });
 }
-
 function showNotification(body) {
     new Notification({
         title: "New Notification",
         body: body,
         silent: false,
-        icon: path.join(__dirname, '../assets/AdminLTELogo.png')
+        icon: path.join(__dirname, '../dist/assets/AdminLTELogo.png')
     }).show()
 }
 
@@ -75,6 +78,7 @@ function showNotification(body) {
 
 app.on('ready', () => {
     createWindow();
+    showNotification('test notification')
     // startUpdateTimer();
     autoUpdater.checkForUpdatesAndNotify();
 })
@@ -90,8 +94,8 @@ autoUpdater.on('checking-for-update', () => {
 })
 
 autoUpdater.on('download-progress', (progress) => {
-    showNotification(`New version detected, downloading, please wait ${Math.floor(progress.percent)}`);
-    log.info('download-progress', Math.floor(progress.percent));
+    // showNotification("New version detected, downloading, please wait" + progress.percent);
+    log.info('download-progress', progress.percent);
 })
 
 autoUpdater.on('update-downloaded', () => {

@@ -430,3 +430,80 @@
 [2023-06-28 17:09:36.859] [info]  application version: 0.0.8
 [2023-06-28 17:09:39.548] [info]  checking-for-update
 [2023-06-28 17:09:42.161] [info]  update-not-available
+[2023-06-28 17:31:19.837] [info]  hello
+[2023-06-28 17:31:19.850] [info]  application version: 0.0.7
+[2023-06-28 17:31:22.610] [info]  checking-for-update
+[2023-06-28 17:31:25.458] [info]  update-not-available
+[2023-06-28 17:34:43.913] [info]  application version: 0.0.8
+[2023-06-28 17:34:44.655] [info]  checking-for-update
+[2023-06-28 17:34:47.377] [info]  update-not-available
+[2023-06-28 17:37:11.158] [info]  application version: 0.0.9
+[2023-06-28 17:40:14.090] [info]  application version: 0.0.9
+[2023-06-28 17:41:38.266] [info]  application version: 0.0.9
+[2023-06-28 17:47:13.751] [info]  application version: 0.0.8
+[2023-06-28 17:47:14.817] [info]  checking-for-update
+[2023-06-28 17:47:17.146] [info]  update-available
+[2023-06-28 17:47:17.146] [info]  version 0.0.9
+[2023-06-28 17:47:17.147] [info]  release date 2023-06-28T12:16:42.816Z
+[2023-06-28 17:49:30.280] [info]  application version: 0.0.8
+[2023-06-28 17:49:30.393] [info]  checking-for-update
+[2023-06-28 17:49:32.596] [info]  update-available
+[2023-06-28 17:49:32.596] [info]  version 0.0.9
+[2023-06-28 17:49:32.597] [info]  release date 2023-06-28T12:16:42.816Z
+[2023-06-28 17:58:48.047] [info]  application version: 0.0.9
+[2023-06-28 17:58:48.703] [info]  checking-for-update
+[2023-06-28 17:58:50.849] [info]  update-not-available
+[2023-06-28 18:04:41.543] [info]  application version: 0.0.9
+[2023-06-28 18:04:41.851] [info]  checking-for-update
+[2023-06-28 18:04:44.002] [info]  update-available
+[2023-06-28 18:04:44.010] [info]  version 0.0.10
+[2023-06-28 18:04:44.014] [info]  release date 2023-06-28T12:33:36.856Z
+[2023-06-28 18:15:47.109] [info]  application version: 0.0.9
+[2023-06-28 18:15:47.369] [info]  checking-for-update
+[2023-06-28 18:15:49.410] [info]  update-available
+[2023-06-28 18:15:49.411] [info]  version 0.0.10
+[2023-06-28 18:15:49.412] [info]  release date 2023-06-28T12:42:36.035Z
+[2023-06-28 18:19:21.269] [info]  application version: 0.0.10
+[2023-06-28 18:19:21.678] [info]  checking-for-update
+[2023-06-28 18:19:23.810] [info]  update-not-available
+[2023-06-28 18:22:47.678] [info]  application version: 0.0.10
+[2023-06-28 18:22:48.025] [info]  checking-for-update
+[2023-06-28 18:22:50.134] [info]  update-available
+[2023-06-28 18:22:50.134] [info]  version 0.0.11
+[2023-06-28 18:22:50.135] [info]  release date 2023-06-28T12:51:38.140Z
+[2023-06-28 18:27:21.295] [info]  application version: 0.0.10
+[2023-06-28 18:27:21.570] [info]  checking-for-update
+[2023-06-28 18:27:23.918] [info]  update-available
+[2023-06-28 18:27:23.918] [info]  version 0.0.11
+[2023-06-28 18:27:23.919] [info]  release date 2023-06-28T12:56:30.794Z
+[2023-06-28 18:39:29.102] [info]  application version: 0.0.11
+[2023-06-28 18:39:29.391] [info]  checking-for-update
+[2023-06-28 18:39:32.082] [info]  update-not-available
+[2023-06-28 18:40:05.612] [info]  application version: 0.0.11
+[2023-06-28 18:40:05.854] [info]  checking-for-update
+[2023-06-28 18:40:07.145] [info]  update-not-available
+[2023-06-28 18:40:42.614] [info]  application version: 0.0.11
+[2023-06-28 18:40:42.867] [info]  checking-for-update
+[2023-06-28 18:40:44.949] [info]  update-available
+[2023-06-28 18:40:44.950] [info]  version 0.0.12
+[2023-06-28 18:40:44.950] [info]  release date 2023-06-28T13:00:54.485Z
+[2023-06-28 18:40:47.821] [info]  download-progress 0.07609858680944927
+[2023-06-28 18:40:48.102] [info]  download-progress 0.10110727532198872
+[2023-06-28 18:40:48.876] [info]  download-progress 0.1254958911805472
+[2023-06-28 18:40:48.934] [info]  download-progress 0.9875917601911122
+[2023-06-28 18:40:49.876] [info]  download-progress 9.721054797278624
+[2023-06-28 18:40:50.876] [info]  download-progress 25.66331897390432
+[2023-06-28 18:40:51.876] [info]  download-progress 41.50055101972788
+[2023-06-28 18:40:52.878] [info]  download-progress 57.17482933488227
+[2023-06-28 18:40:53.878] [info]  download-progress 72.96078477921421
+[2023-06-28 18:40:54.879] [info]  download-progress 88.36713855876418
+[2023-06-28 18:40:55.615] [info]  download-progress 99.618241027501
+[2023-06-28 18:40:56.072] [info]  download-progress 99.63932758612748
+[2023-06-28 18:40:56.079] [info]  download-progress 99.78426105151402
+[2023-06-28 18:40:56.387] [info]  download-progress 99.80782244956826
+[2023-06-28 18:40:56.630] [info]  download-progress 99.83649842492007
+[2023-06-28 18:40:56.873] [info]  download-progress 100
+[2023-06-28 18:40:56.889] [info]  update-downloaded
+[2023-06-28 18:41:39.961] [info]  application version: 0.0.12
+[2023-06-28 18:41:40.334] [info]  checking-for-update
+[2023-06-28 18:41:41.837] [info]  update-not-available

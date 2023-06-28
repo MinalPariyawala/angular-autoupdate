@@ -1,6 +1,6 @@
 {
   "name": "Autoupdate",
-  "version": "0.0.8",
+  "version": "0.0.12",
   "description": "This is demo project for angular electron auto-update",
   "author": {
     "name": "Minal Pariyawala",

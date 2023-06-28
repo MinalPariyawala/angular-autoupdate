@@ -9,8 +9,10 @@ const args = process.argv.slice(1);
 const serve = args.some(function (val) {
     return val === '--serve';
 });
+let updater = null;
+let progressBar;
+// autoUpdater.autoDownload = false;
 log.transports.file.resolvePath = () => path.join('C:/Users/Administrator/Desktop/minal/angular-autoupdate/', 'logs/main.log');
-log.info('hello');
 log.info('application version:', electron_1.app.getVersion());
 function createWindow() {
     const size = electron_1.screen.getPrimaryDisplay().workAreaSize;
@@ -50,11 +52,21 @@ function showNotification(body) {
         title: "New Notification",
         body: body,
         silent: false,
-        icon: path.join(__dirname, '../assets/AdminLTELogo.png')
+        icon: path.join(__dirname, '../dist/assets/AdminLTELogo.png')
     }).show();
 }
+// function startUpdateTimer() {
+//     setInterval(() => {
+//         autoUpdater.checkForUpdates();
+//     }, 43200000);
+//     setTimeout(() => {
+//         autoUpdater.checkForUpdates();
+//     }, 5000);
+// }
 electron_1.app.on('ready', () => {
     createWindow();
+    showNotification('test notification');
+    // startUpdateTimer();
     electron_updater_1.autoUpdater.checkForUpdatesAndNotify();
 });
 electron_updater_1.autoUpdater.on('update-available', (info) => {
@@ -66,8 +78,8 @@ electron_updater_1.autoUpdater.on('checking-for-update', () => {
     log.info('checking-for-update');
 });
 electron_updater_1.autoUpdater.on('download-progress', (progress) => {
-    showNotification(`New version detected, downloading, please wait ${Math.floor(progress.percent)}`);
-    log.info('download-progress', Math.floor(progress.percent));
+    // showNotification("New version detected, downloading, please wait" + progress.percent);
+    log.info('download-progress', progress.percent);
 });
 electron_updater_1.autoUpdater.on('update-downloaded', () => {
     log.info('update-downloaded');
