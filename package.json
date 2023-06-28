@@ -1,6 +1,6 @@
 {
   "name": "Autoupdate",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "description": "This is demo project for angular electron auto-update",
   "author": {
     "name": "Minal Pariyawala",
@@ -9,33 +9,58 @@
   "scripts": {
     "ng": "ng",
     "start": "npm-run-all -p electron:serve ng:serve",
-    "build": "ng build",
+    "build": "npm run electron:serve-tsc && ng build --base-href ./",
     "ng:serve": "ng serve --port 4201 -c web -o",
     "electron:serve-tsc": "tsc -p tsconfig.serve.json",
-    "electron:serve": "wait-on tcp:4201 && npm run electron:serve-tsc && electron .",
-    "package": "electron-builder -p always",
+    "electron:serve": "wait-on tcp:4201 && npm run electron:serve-tsc && electron . --serve",
+    "package": "npm run build && electron-builder",
+    "publish": "npm run build && electron-builder -p always",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
   "main": "desktop/main.js",
   "private": true,
+  "asar": true,
   "build": {
+    "appId": "com.autoupdate.app",
+    "directories": {
+      "output": "release/"
+    },
     "publish": [{
       "provider": "github",
       "owner": "MinalPariyawala",
       "repo": "angular-autoupdate"
     }],
+    "files": [
+      "**/*",
+      "!**/*.ts",
+      "!*.map",
+      "!logs",
+      "!release",
+      "!src",
+      "!assets",
+      "!package.json",
+      "!package-lock.json"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowElevation": true,
+      "installerIcon": "dist/assets/icon/favicon.ico",
+      "uninstallerIcon": "dist/assets/icon/favicon.ico",
+      "installerHeaderIcon": "dist/assets/icon/favicon.ico",
+      "deleteAppDataOnUninstall": true,
+      "runAfterFinish": true,
+      "createStartMenuShortcut": true,
+      "createDesktopShortcut": true
+    },
     "mac": {
       "target": ["dmg", "zip"]
     }
   },
-  "files": [
-    "**/*",
-    "!**/*.ts",
-    "!*.map",
-    "!package.json",
-    "!package-lock.json"
-  ],
   "dependencies": {
     "@angular/animations": "^15.2.0",
     "@angular/common": "^15.2.0",

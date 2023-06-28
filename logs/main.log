@@ -309,3 +309,124 @@
 [2023-06-27 16:45:56.995] [info]  hello
 [2023-06-27 16:45:57.163] [info]  checking-for-update
 [2023-06-27 16:45:59.040] [info]  update-not-available
+[2023-06-28 10:34:37.289] [info]  hello
+[2023-06-28 10:34:37.296] [info]  application version: 0.0.5
+[2023-06-28 11:04:52.095] [info]  hello
+[2023-06-28 11:04:52.104] [info]  application version: 0.0.5
+[2023-06-28 11:06:06.177] [info]  hello
+[2023-06-28 11:06:06.186] [info]  application version: 0.0.5
+[2023-06-28 11:56:06.099] [info]  hello
+[2023-06-28 11:56:06.105] [info]  application version: 0.0.5
+[2023-06-28 11:57:43.030] [info]  hello
+[2023-06-28 11:57:43.036] [info]  application version: 0.0.5
+[2023-06-28 11:59:16.769] [info]  hello
+[2023-06-28 11:59:16.775] [info]  application version: 0.0.5
+[2023-06-28 11:59:16.860] [info]  path C:\Users\Administrator\Desktop\minal\angular-autoupdate\desktop\src\index.html
+[2023-06-28 12:35:41.819] [info]  hello
+[2023-06-28 12:35:41.826] [info]  application version: 0.0.5
+[2023-06-28 12:35:41.925] [info]  path C:\Users\Administrator\Desktop\minal\angular-autoupdate\desktop\src\index.html
+[2023-06-28 12:36:17.926] [info]  hello
+[2023-06-28 12:36:17.933] [info]  application version: 0.0.5
+[2023-06-28 12:36:18.016] [info]  path C:\Users\Administrator\Desktop\minal\angular-autoupdate\desktop\src\index.html
+[2023-06-28 12:36:58.277] [info]  hello
+[2023-06-28 12:36:58.284] [info]  application version: 0.0.5
+[2023-06-28 12:36:58.377] [info]  path C:\Users\Administrator\Desktop\minal\angular-autoupdate\desktop\index.html
+[2023-06-28 12:38:10.576] [info]  hello
+[2023-06-28 12:38:10.582] [info]  application version: 0.0.5
+[2023-06-28 12:38:10.663] [info]  path C:\Users\Administrator\Desktop\minal\angular-autoupdate\desktop\index.html
+[2023-06-28 12:41:26.138] [info]  hello
+[2023-06-28 12:41:26.145] [info]  application version: 0.0.5
+[2023-06-28 12:41:26.242] [info]  path C:\Users\Administrator\Desktop\minal\src\index.html
+[2023-06-28 12:42:06.348] [info]  hello
+[2023-06-28 12:42:06.371] [info]  application version: 0.0.5
+[2023-06-28 12:42:06.859] [info]  path C:\Users\Administrator\Desktop\minal\angular-autoupdate\src\index.html
+[2023-06-28 12:42:45.073] [info]  hello
+[2023-06-28 12:42:45.083] [info]  application version: 0.0.5
+[2023-06-28 12:47:15.575] [info]  hello
+[2023-06-28 12:47:15.596] [info]  application version: 0.0.5
+[2023-06-28 13:00:33.484] [info]  hello
+[2023-06-28 13:00:33.490] [info]  application version: 0.0.5
+[2023-06-28 13:00:34.127] [info]  checking-for-update
+[2023-06-28 13:00:36.721] [info]  update-not-available
+[2023-06-28 13:05:03.666] [info]  hello
+[2023-06-28 13:05:03.672] [info]  application version: 0.0.5
+[2023-06-28 13:05:03.829] [info]  checking-for-update
+[2023-06-28 13:05:05.730] [info]  update-not-available
+[2023-06-28 13:06:00.994] [info]  hello
+[2023-06-28 13:06:01.058] [info]  application version: 0.0.5
+[2023-06-28 13:47:40.582] [info]  hello
+[2023-06-28 13:47:40.588] [info]  application version: 0.0.5
+[2023-06-28 13:47:40.927] [info]  checking-for-update
+[2023-06-28 13:47:43.181] [info]  update-not-available
+[2023-06-28 13:52:02.282] [info]  hello
+[2023-06-28 13:52:02.298] [info]  application version: 0.0.5
+[2023-06-28 13:56:23.550] [info]  hello
+[2023-06-28 13:56:23.563] [info]  application version: 0.0.5
+[2023-06-28 13:56:23.965] [info]  checking-for-update
+[2023-06-28 13:56:25.795] [info]  update-not-available
+[2023-06-28 14:45:40.784] [info]  hello
+[2023-06-28 14:45:40.795] [info]  application version: 0.0.5
+[2023-06-28 15:03:18.417] [info]  hello
+[2023-06-28 15:03:18.425] [info]  application version: 0.0.6
+[2023-06-28 15:07:57.825] [info]  hello
+[2023-06-28 15:07:57.969] [info]  application version: 0.0.6
+[2023-06-28 15:07:58.763] [info]  checking-for-update
+[2023-06-28 15:08:00.845] [info]  update-not-available
+[2023-06-28 15:08:09.968] [info]  hello
+[2023-06-28 15:08:09.973] [info]  application version: 0.0.6
+[2023-06-28 15:08:10.057] [info]  checking-for-update
+[2023-06-28 15:08:11.445] [info]  update-not-available
+[2023-06-28 15:25:21.080] [info]  hello
+[2023-06-28 15:25:21.202] [info]  application version: 0.0.7
+[2023-06-28 15:25:25.494] [info]  checking-for-update
+[2023-06-28 15:25:28.888] [info]  update-not-available
+[2023-06-28 16:09:03.054] [info]  hello
+[2023-06-28 16:09:03.074] [info]  application version: 0.0.8
+[2023-06-28 16:09:39.511] [info]  hello
+[2023-06-28 16:09:39.688] [info]  application version: 0.0.8
+[2023-06-28 16:09:43.062] [info]  checking-for-update
+[2023-06-28 16:09:46.386] [info]  update-not-available
+[2023-06-28 16:12:54.284] [info]  hello
+[2023-06-28 16:12:54.367] [info]  application version: 0.0.8
+[2023-06-28 16:12:56.710] [info]  checking-for-update
+[2023-06-28 16:12:56.717] [info]  error ReferenceError: Notification is not defined
+    at NsisUpdater.<anonymous> (C:\Program Files\Autoupdate\resources\app.asar\desktop\main.js:59:5)
+    at NsisUpdater.emit (node:events:513:28)
+    at NsisUpdater.doCheckForUpdates (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\AppUpdater.js:332:14)
+    at NsisUpdater.checkForUpdates (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\AppUpdater.js:213:39)
+    at NsisUpdater.checkForUpdatesAndNotify (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\AppUpdater.js:236:21)
+    at App.<anonymous> (C:\Program Files\Autoupdate\resources\app.asar\desktop\main.js:50:36)
+    at App.emit (node:events:513:28)
+[2023-06-28 16:21:26.566] [info]  hello
+[2023-06-28 16:21:26.657] [info]  application version: 0.0.8
+[2023-06-28 16:21:29.554] [info]  checking-for-update
+[2023-06-28 16:21:29.558] [info]  error ReferenceError: Notification is not defined
+    at NsisUpdater.<anonymous> (C:\Program Files\Autoupdate\resources\app.asar\desktop\main.js:59:5)
+    at NsisUpdater.emit (node:events:513:28)
+    at NsisUpdater.doCheckForUpdates (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\AppUpdater.js:332:14)
+    at NsisUpdater.checkForUpdates (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\AppUpdater.js:213:39)
+    at NsisUpdater.checkForUpdatesAndNotify (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\AppUpdater.js:236:21)
+    at App.<anonymous> (C:\Program Files\Autoupdate\resources\app.asar\desktop\main.js:50:36)
+    at App.emit (node:events:513:28)
+[2023-06-28 16:22:13.037] [info]  hello
+[2023-06-28 16:22:13.044] [info]  application version: 0.0.8
+[2023-06-28 16:23:38.593] [info]  hello
+[2023-06-28 16:23:38.636] [info]  application version: 0.0.8
+[2023-06-28 16:24:41.019] [info]  hello
+[2023-06-28 16:24:41.031] [info]  application version: 0.0.8
+[2023-06-28 16:25:29.398] [info]  hello
+[2023-06-28 16:25:29.404] [info]  application version: 0.0.8
+[2023-06-28 16:26:25.964] [info]  hello
+[2023-06-28 16:26:25.972] [info]  application version: 0.0.8
+[2023-06-28 16:43:37.339] [info]  hello
+[2023-06-28 16:43:37.397] [info]  application version: 0.0.8
+[2023-06-28 16:43:40.019] [info]  checking-for-update
+[2023-06-28 16:43:42.476] [info]  update-not-available
+[2023-06-28 16:53:18.252] [info]  hello
+[2023-06-28 16:53:18.317] [info]  application version: 0.0.8
+[2023-06-28 16:53:21.751] [info]  checking-for-update
+[2023-06-28 16:53:24.188] [info]  update-not-available
+[2023-06-28 17:09:36.851] [info]  hello
+[2023-06-28 17:09:36.859] [info]  application version: 0.0.8
+[2023-06-28 17:09:39.548] [info]  checking-for-update
+[2023-06-28 17:09:42.161] [info]  update-not-available
