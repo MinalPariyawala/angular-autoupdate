@@ -1,6 +1,6 @@
 {
   "name": "Autoupdate",
-  "version": "0.0.12",
+  "version": "0.0.16",
   "description": "This is demo project for angular electron auto-update",
   "author": {
     "name": "Minal Pariyawala",
@@ -20,7 +20,6 @@
   },
   "main": "desktop/main.js",
   "private": true,
-  "asar": true,
   "build": {
     "appId": "com.autoupdate.app",
     "directories": {
@@ -33,8 +32,10 @@
     }],
     "files": [
       "**/*",
-      "!**/*.ts",
-      "!*.map",
+      "!.angular",
+      "!.vscode",
+      "!README.md",
+      "!**/node_modules/.bin",
       "!logs",
       "!release",
       "!src",
@@ -58,7 +59,10 @@
       "createDesktopShortcut": true
     },
     "mac": {
-      "target": ["dmg", "zip"]
+      "target": [
+        "dmg",
+        "zip"
+      ]
     }
   },
   "dependencies": {
@@ -71,6 +75,7 @@
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
     "electron-log": "^4.4.8",
+    "electron-progressbar": "^2.1.0",
     "electron-updater": "^6.1.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

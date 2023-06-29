@@ -507,3 +507,351 @@
 [2023-06-28 18:41:39.961] [info]  application version: 0.0.12
 [2023-06-28 18:41:40.334] [info]  checking-for-update
 [2023-06-28 18:41:41.837] [info]  update-not-available
+[2023-06-28 18:52:39.828] [info]  application version: 0.0.12
+[2023-06-28 18:52:40.088] [info]  checking-for-update
+[2023-06-28 18:52:41.661] [info]  update-not-available
+[2023-06-29 10:14:03.242] [info]  application version: 0.0.12
+[2023-06-29 10:14:03.537] [info]  checking-for-update
+[2023-06-29 10:14:05.218] [info]  update-not-available
+[2023-06-29 11:17:58.981] [info]  application version: 0.0.12
+[2023-06-29 11:18:04.296] [info]  checking-for-update
+[2023-06-29 11:18:06.213] [info]  update-not-available
+[2023-06-29 11:34:12.075] [info]  application version: 0.0.12
+[2023-06-29 11:34:17.223] [info]  checking-for-update
+[2023-06-29 12:41:21.023] [info]  application version: 0.0.12
+[2023-06-29 12:45:16.968] [info]  application version: 0.0.12
+[2023-06-29 12:45:22.178] [info]  checking-for-update
+[2023-06-29 12:45:23.543] [info]  update-not-available
+[2023-06-29 12:54:11.892] [info]  application version: 0.0.13
+[2023-06-29 12:54:17.121] [info]  checking-for-update
+[2023-06-29 12:54:19.303] [info]  update-not-available
+[2023-06-29 12:58:58.014] [info]  application version: 0.0.13
+[2023-06-29 12:59:03.165] [info]  checking-for-update
+[2023-06-29 12:59:05.284] [info]  update-available
+[2023-06-29 12:59:05.285] [info]  version 0.0.14
+[2023-06-29 12:59:05.285] [info]  release date 2023-06-29T07:28:04.370Z
+[2023-06-29 12:59:05.314] [info]  error TypeError: Cannot read properties of undefined (reading 'on')
+    at NsisUpdater.<anonymous> (C:\Program Files\Autoupdate\resources\app.asar\desktop\main.js:129:22)
+    at NsisUpdater.emit (node:events:513:28)
+    at NsisUpdater.onUpdateAvailable (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\AppUpdater.js:358:14)
+    at NsisUpdater.doCheckForUpdates (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\AppUpdater.js:344:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-06-29 14:08:22.917] [info]  application version: 0.0.13
+[2023-06-29 14:08:28.112] [info]  checking-for-update
+[2023-06-29 14:08:30.768] [info]  update-not-available
+[2023-06-29 14:10:56.230] [info]  application version: 0.0.13
+[2023-06-29 14:11:01.338] [info]  checking-for-update
+[2023-06-29 14:11:03.308] [info]  update-available
+[2023-06-29 14:11:03.309] [info]  version 0.0.14
+[2023-06-29 14:11:03.311] [info]  release date 2023-06-29T08:40:31.926Z
+[2023-06-29 14:13:37.784] [info]  application version: 0.0.13
+[2023-06-29 14:13:42.898] [info]  checking-for-update
+[2023-06-29 14:13:44.578] [info]  update-available
+[2023-06-29 14:13:44.578] [info]  version 0.0.14
+[2023-06-29 14:13:44.579] [info]  release date 2023-06-29T08:40:31.926Z
+[2023-06-29 14:26:52.382] [info]  application version: 0.0.13
+[2023-06-29 14:26:57.704] [info]  checking-for-update
+[2023-06-29 14:26:59.768] [info]  update-not-available
+[2023-06-29 14:27:38.183] [info]  application version: 0.0.13
+[2023-06-29 14:27:43.296] [info]  checking-for-update
+[2023-06-29 14:27:45.419] [info]  update-not-available
+[2023-06-29 14:28:03.559] [info]  application version: 0.0.13
+[2023-06-29 14:28:08.655] [info]  checking-for-update
+[2023-06-29 14:28:09.832] [info]  update-not-available
+[2023-06-29 14:29:17.582] [info]  application version: 0.0.13
+[2023-06-29 14:29:22.829] [info]  checking-for-update
+[2023-06-29 14:29:24.975] [info]  update-available
+[2023-06-29 14:29:24.976] [info]  version 0.0.14
+[2023-06-29 14:29:24.976] [info]  release date 2023-06-29T08:57:17.540Z
+[2023-06-29 14:29:36.026] [info]  buttonIndex { response: 0, checkboxChecked: false }
+[2023-06-29 14:33:40.921] [info]  application version: 0.0.13
+[2023-06-29 14:33:46.139] [info]  checking-for-update
+[2023-06-29 14:33:48.648] [info]  update-not-available
+[2023-06-29 14:36:21.754] [info]  application version: 0.0.13
+[2023-06-29 14:36:26.860] [info]  checking-for-update
+[2023-06-29 14:36:28.987] [info]  update-available
+[2023-06-29 14:36:28.988] [info]  version 0.0.14
+[2023-06-29 14:36:28.988] [info]  release date 2023-06-29T09:05:13.879Z
+[2023-06-29 14:36:56.318] [info]  buttonIndex { response: 0, checkboxChecked: false }
+[2023-06-29 14:36:56.321] [info]  strat download
+[2023-06-29 14:36:59.254] [info]  download-progress 5.939341850676668
+[2023-06-29 14:36:59.488] [info]  download-progress 7.842926602001232
+[2023-06-29 14:36:59.491] [info]  download-progress 7.891324627361797
+[2023-06-29 14:36:59.937] [info]  download-progress 72.09465590067661
+[2023-06-29 14:37:02.159] [info]  download-progress 73.0464482763389
+[2023-06-29 14:37:02.166] [info]  download-progress 83.16121009955101
+[2023-06-29 14:37:02.642] [info]  download-progress 84.99990958610647
+[2023-06-29 14:37:02.890] [info]  download-progress 87.23813211278123
+[2023-06-29 14:37:03.137] [info]  download-progress 100
+[2023-06-29 14:37:03.146] [info]  update-downloaded
+[2023-06-29 14:41:56.226] [info]  application version: 0.0.13
+[2023-06-29 14:42:01.462] [info]  checking-for-update
+[2023-06-29 14:42:03.871] [info]  update-not-available
+[2023-06-29 14:44:08.263] [info]  application version: 0.0.13
+[2023-06-29 14:44:13.382] [info]  checking-for-update
+[2023-06-29 14:44:15.381] [info]  update-available
+[2023-06-29 14:44:15.382] [info]  version 0.0.14
+[2023-06-29 14:44:15.382] [info]  release date 2023-06-29T09:13:35.380Z
+[2023-06-29 14:44:20.377] [info]  buttonIndex { response: 0, checkboxChecked: false }
+[2023-06-29 14:44:20.380] [info]  strat download
+[2023-06-29 14:44:23.968] [info]  download-progress 2.8317747466709857
+[2023-06-29 14:44:24.196] [info]  download-progress 4.130724109035342
+[2023-06-29 14:44:24.199] [info]  download-progress 7.746340020702913
+[2023-06-29 14:44:24.429] [info]  download-progress 9.361642571949664
+[2023-06-29 14:44:24.811] [info]  download-progress 72.16417621418361
+[2023-06-29 14:44:27.154] [info]  download-progress 73.90200621087396
+[2023-06-29 14:44:27.164] [info]  download-progress 81.32195846742107
+[2023-06-29 14:44:27.651] [info]  download-progress 82.84351696019266
+[2023-06-29 14:44:27.894] [info]  download-progress 100
+[2023-06-29 14:44:27.901] [info]  update-downloaded
+[2023-06-29 14:44:47.370] [info]  application version: 0.0.14
+[2023-06-29 14:44:52.603] [info]  checking-for-update
+[2023-06-29 14:44:54.391] [info]  update-not-available
+[2023-06-29 15:14:16.396] [info]  application version: 0.0.14
+[2023-06-29 15:14:21.617] [info]  checking-for-update
+[2023-06-29 15:14:23.429] [info]  update-not-available
+[2023-06-29 15:17:56.995] [info]  application version: 0.0.13
+[2023-06-29 15:18:02.158] [info]  checking-for-update
+[2023-06-29 15:18:04.321] [info]  update-available
+[2023-06-29 15:18:04.322] [info]  version 0.0.14
+[2023-06-29 15:18:04.323] [info]  release date 2023-06-29T09:13:35.380Z
+[2023-06-29 15:18:08.268] [info]  buttonIndex { response: 1, checkboxChecked: false }
+[2023-06-29 16:20:33.170] [info]  application version: 0.0.14
+[2023-06-29 17:03:48.148] [info]  application version: 0.0.14
+[2023-06-29 17:07:11.733] [info]  application version: 0.0.14
+[2023-06-29 17:11:06.073] [info]  application version: 0.0.14
+[2023-06-29 17:11:07.117] [info]  in ipc getdata
+[2023-06-29 17:14:04.510] [info]  in ipc getdata
+[2023-06-29 17:14:27.744] [info]  in ipc getdata
+[2023-06-29 17:14:46.241] [info]  in ipc getdata
+[2023-06-29 17:15:06.853] [info]  in ipc getdata
+[2023-06-29 17:15:40.120] [info]  in ipc getdata
+[2023-06-29 17:16:34.149] [info]  in ipc getdata
+[2023-06-29 17:16:42.388] [info]  in ipc getdata
+[2023-06-29 17:17:29.380] [info]  application version: 0.0.14
+[2023-06-29 17:17:30.278] [info]  in ipc getdata
+[2023-06-29 17:18:45.990] [info]  in ipc getdata
+[2023-06-29 17:21:11.479] [info]  application version: 0.0.14
+[2023-06-29 17:21:13.035] [info]  in ipc getdata
+[2023-06-29 17:21:16.718] [info]  checking-for-update
+[2023-06-29 17:21:18.752] [info]  update-not-available
+[2023-06-29 17:21:33.845] [info]  in ipc getdata
+[2023-06-29 17:48:28.890] [info]  application version: 0.0.14
+[2023-06-29 17:48:29.522] [info]  in ipc getdata
+[2023-06-29 17:48:34.013] [info]  checking-for-update
+[2023-06-29 17:48:36.012] [info]  update-available
+[2023-06-29 17:48:36.013] [info]  version 0.0.15
+[2023-06-29 17:48:36.015] [info]  release date 2023-06-29T12:17:15.006Z
+[2023-06-29 17:49:09.087] [info]  buttonIndex { response: 1, checkboxChecked: false }
+[2023-06-29 17:49:29.000] [info]  checking-for-update
+[2023-06-29 17:49:30.049] [info]  update-available
+[2023-06-29 17:49:30.051] [info]  version 0.0.15
+[2023-06-29 17:49:30.052] [info]  release date 2023-06-29T12:17:15.006Z
+[2023-06-29 17:49:40.912] [info]  buttonIndex { response: 1, checkboxChecked: false }
+[2023-06-29 17:50:29.000] [info]  checking-for-update
+[2023-06-29 17:50:30.430] [info]  update-available
+[2023-06-29 17:50:30.432] [info]  version 0.0.15
+[2023-06-29 17:50:30.433] [info]  release date 2023-06-29T12:17:15.006Z
+[2023-06-29 17:51:03.527] [info]  buttonIndex { response: 0, checkboxChecked: false }
+[2023-06-29 17:51:03.528] [info]  strat download
+[2023-06-29 17:51:06.574] [info]  download-progress 0.36015810191720854
+[2023-06-29 17:51:06.848] [info]  download-progress 0.5434781391835133
+[2023-06-29 17:51:06.852] [info]  download-progress 0.9853941789422989
+[2023-06-29 17:51:07.139] [info]  download-progress 1.190835766965136
+[2023-06-29 17:51:07.848] [info]  download-progress 43.73160782252068
+[2023-06-29 17:51:08.263] [info]  download-progress 96.3557991712479
+[2023-06-29 17:51:09.629] [info]  download-progress 96.39184744727828
+[2023-06-29 17:51:09.641] [info]  download-progress 97.62409395121124
+[2023-06-29 17:51:10.101] [info]  download-progress 97.81762393498056
+[2023-06-29 17:51:10.384] [info]  download-progress 100
+[2023-06-29 17:51:11.988] [info]  download-progress 14.02262382216444
+[2023-06-29 17:51:12.988] [info]  download-progress 28.421620614073216
+[2023-06-29 17:51:13.988] [info]  download-progress 42.966073346890894
+[2023-06-29 17:51:14.988] [info]  download-progress 57.65597060703674
+[2023-06-29 17:51:15.988] [info]  download-progress 72.36664565680091
+[2023-06-29 17:51:16.989] [info]  download-progress 86.39166506274152
+[2023-06-29 17:51:17.926] [info]  download-progress 100
+[2023-06-29 17:51:17.948] [info]  update-downloaded
+[2023-06-29 17:51:29.002] [info]  checking-for-update
+[2023-06-29 17:51:30.578] [info]  update-available
+[2023-06-29 17:51:30.579] [info]  version 0.0.15
+[2023-06-29 17:51:30.580] [info]  release date 2023-06-29T12:17:15.006Z
+[2023-06-29 17:52:47.122] [info]  application version: 0.0.15
+[2023-06-29 17:52:47.959] [info]  in ipc getdata
+[2023-06-29 17:52:52.248] [info]  checking-for-update
+[2023-06-29 17:52:53.977] [info]  update-not-available
+[2023-06-29 17:53:47.257] [info]  checking-for-update
+[2023-06-29 17:53:49.145] [info]  update-not-available
+[2023-06-29 17:54:47.267] [info]  checking-for-update
+[2023-06-29 17:54:49.807] [info]  error Error: Cannot find latest.yml in the latest release artifacts (https://github.com/MinalPariyawala/angular-autoupdate/releases/download/v0.0.15/latest.yml): HttpError: 404 
+"method: GET url: https://objects.githubusercontent.com/github-production-release-asset-2e65be/659100058/e4af5bec-9cac-4145-b6e9-1f1540fefa17?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230629%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230629T122347Z&X-Amz-Expires=300&X-Amz-Signature=d72e2f6a91f6bdef7068df8aaad4acb1d1fe1affd09bd58f2bc3ea8d6ad974e4&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=659100058&response-content-disposition=attachment%3B%20filename%3Dlatest.yml&response-content-type=application%2Foctet-stream\n\nPlease double check that your authentication token is correct. Due to security reasons, actual status maybe not reported, but 404.\n"
+Headers: {
+  "accept-ranges": "bytes",
+  "age": "0",
+  "content-type": "application/xml",
+  "date": "Thu, 29 Jun 2023 12:24:49 GMT",
+  "fastly-restarts": "1",
+  "server": "AmazonS3",
+  "via": "1.1 varnish",
+  "x-amz-id-2": "00yL93v85yzykdeELg0601n4KuJzq7+n3xyIAoS9ZD7eZUcRTbdchknecOL+bAf3gN3PLU2zMAE=",
+  "x-amz-request-id": "B3WJCJ0GFZGSAB83",
+  "x-cache": "MISS",
+  "x-cache-hits": "0",
+  "x-served-by": "cache-bom4748-BOM",
+  "x-timer": "S1688041488.639169,VS0,VE1623"
+}
+    at createHttpError (C:\Program Files\Autoupdate\resources\app.asar\node_modules\builder-util-runtime\out\httpExecutor.js:14:12)
+    at ElectronHttpExecutor.handleResponse (C:\Program Files\Autoupdate\resources\app.asar\node_modules\builder-util-runtime\out\httpExecutor.js:116:20)
+    at ClientRequest.<anonymous> (C:\Program Files\Autoupdate\resources\app.asar\node_modules\builder-util-runtime\out\httpExecutor.js:82:26)
+    at ClientRequest.emit (node:events:513:28)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49677)
+    at SimpleURLLoaderWrapper.emit (node:events:513:28)
+    at newError (C:\Program Files\Autoupdate\resources\app.asar\node_modules\builder-util-runtime\out\index.js:47:19)
+    at fetchData (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\providers\GitHubProvider.js:108:63)
+    at async GitHubProvider.getLatestVersion (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\providers\GitHubProvider.js:115:23)
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\AppUpdater.js:319:19)
+    at async NsisUpdater.doCheckForUpdates (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\AppUpdater.js:333:24)
+[2023-06-29 17:55:32.558] [info]  application version: 0.0.15
+[2023-06-29 17:55:36.607] [info]  in ipc getdata
+[2023-06-29 17:55:47.277] [info]  checking-for-update
+[2023-06-29 17:55:48.509] [info]  error Error: Cannot find latest.yml in the latest release artifacts (https://github.com/MinalPariyawala/angular-autoupdate/releases/download/v0.0.15/latest.yml): HttpError: 404 
+"method: GET url: https://github.com/MinalPariyawala/angular-autoupdate/releases/download/v0.0.15/latest.yml\n\nPlease double check that your authentication token is correct. Due to security reasons, actual status maybe not reported, but 404.\n"
+Headers: {
+  "cache-control": "no-cache",
+  "content-encoding": "gzip",
+  "content-length": "29",
+  "content-security-policy": "default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; img-src 'self' data:; script-src 'self'; style-src 'unsafe-inline'",
+  "content-type": "text/plain; charset=utf-8",
+  "date": "Thu, 29 Jun 2023 12:25:47 GMT",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "server": "GitHub.com",
+  "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+  "vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With",
+  "x-content-type-options": "nosniff",
+  "x-frame-options": "deny",
+  "x-github-request-id": "ECC6:6A14:9133B6:A25B4C:649D784B",
+  "x-xss-protection": "0"
+}
+    at createHttpError (C:\Program Files\Autoupdate\resources\app.asar\node_modules\builder-util-runtime\out\httpExecutor.js:14:12)
+    at ElectronHttpExecutor.handleResponse (C:\Program Files\Autoupdate\resources\app.asar\node_modules\builder-util-runtime\out\httpExecutor.js:116:20)
+    at ClientRequest.<anonymous> (C:\Program Files\Autoupdate\resources\app.asar\node_modules\builder-util-runtime\out\httpExecutor.js:82:26)
+    at ClientRequest.emit (node:events:513:28)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49677)
+    at SimpleURLLoaderWrapper.emit (node:events:513:28)
+    at newError (C:\Program Files\Autoupdate\resources\app.asar\node_modules\builder-util-runtime\out\index.js:47:19)
+    at fetchData (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\providers\GitHubProvider.js:108:63)
+    at async GitHubProvider.getLatestVersion (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\providers\GitHubProvider.js:115:23)
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\AppUpdater.js:319:19)
+    at async NsisUpdater.doCheckForUpdates (C:\Program Files\Autoupdate\resources\app.asar\node_modules\electron-updater\out\AppUpdater.js:333:24)
+[2023-06-29 17:58:56.326] [info]  application version: 0.0.14
+[2023-06-29 17:59:01.529] [info]  checking-for-update
+[2023-06-29 17:59:03.800] [info]  update-not-available
+[2023-06-29 18:09:29.999] [info]  application version: 0.0.14
+[2023-06-29 18:09:35.121] [info]  checking-for-update
+[2023-06-29 18:09:36.976] [info]  update-available
+[2023-06-29 18:09:36.977] [info]  version 0.0.15
+[2023-06-29 18:09:36.978] [info]  release date 2023-06-29T12:30:50.251Z
+[2023-06-29 18:12:03.682] [info]  application version: 0.0.14
+[2023-06-29 18:12:08.794] [info]  checking-for-update
+[2023-06-29 18:12:10.530] [info]  update-available
+[2023-06-29 18:12:10.530] [info]  version 0.0.15
+[2023-06-29 18:12:10.531] [info]  release date 2023-06-29T12:30:50.251Z
+[2023-06-29 18:12:16.475] [info]  buttonIndex { response: 0, checkboxChecked: false }
+[2023-06-29 18:12:16.478] [info]  strat download
+[2023-06-29 18:12:19.510] [info]  download-progress 0.3601768920734438
+[2023-06-29 18:12:19.762] [info]  download-progress 0.5335087326466638
+[2023-06-29 18:12:19.765] [info]  download-progress 0.9854343931930138
+[2023-06-29 18:12:20.009] [info]  download-progress 1.1908866995073892
+[2023-06-29 18:12:20.763] [info]  download-progress 54.69370801612181
+[2023-06-29 18:12:21.084] [info]  download-progress 96.35560904612629
+[2023-06-29 18:12:23.105] [info]  download-progress 96.43986789072996
+[2023-06-29 18:12:23.113] [info]  download-progress 97.62396999552172
+[2023-06-29 18:12:23.653] [info]  download-progress 97.81751007613076
+[2023-06-29 18:12:23.909] [info]  download-progress 100
+[2023-06-29 18:12:23.924] [info]  update-downloaded
+[2023-06-29 18:12:44.823] [info]  application version: 0.0.15
+[2023-06-29 18:12:46.770] [info]  in ipc getdata
+[2023-06-29 18:12:50.001] [info]  checking-for-update
+[2023-06-29 18:12:51.982] [info]  update-not-available
+[2023-06-29 18:12:56.134] [info]  checking-for-update
+[2023-06-29 18:12:57.100] [info]  update-not-available
+[2023-06-29 18:13:45.008] [info]  checking-for-update
+[2023-06-29 18:13:46.559] [info]  update-not-available
+[2023-06-29 18:14:45.013] [info]  checking-for-update
+[2023-06-29 18:14:46.698] [info]  update-not-available
+[2023-06-29 18:15:45.019] [info]  checking-for-update
+[2023-06-29 18:15:47.094] [info]  update-not-available
+[2023-06-29 18:16:45.026] [info]  checking-for-update
+[2023-06-29 18:16:46.241] [info]  update-not-available
+[2023-06-29 18:17:45.042] [info]  checking-for-update
+[2023-06-29 18:17:46.238] [info]  update-not-available
+[2023-06-29 18:18:45.047] [info]  checking-for-update
+[2023-06-29 18:18:46.310] [info]  update-not-available
+[2023-06-29 18:19:45.059] [info]  checking-for-update
+[2023-06-29 18:19:46.790] [info]  update-available
+[2023-06-29 18:19:46.791] [info]  version 0.0.16
+[2023-06-29 18:19:46.791] [info]  release date 2023-06-29T12:46:37.694Z
+[2023-06-29 18:20:15.819] [info]  buttonIndex { response: 0, checkboxChecked: false }
+[2023-06-29 18:20:15.823] [info]  strat download
+[2023-06-29 18:20:19.331] [info]  download-progress 0.6284246515601505
+[2023-06-29 18:20:19.590] [info]  download-progress 0.834954627217952
+[2023-06-29 18:20:20.527] [info]  download-progress 2.0979375926309616
+[2023-06-29 18:20:21.324] [info]  download-progress 96.74120210552307
+[2023-06-29 18:20:22.481] [info]  download-progress 96.94925142872127
+[2023-06-29 18:20:22.491] [info]  download-progress 98.217118815116
+[2023-06-29 18:20:22.867] [info]  download-progress 98.41166282684401
+[2023-06-29 18:20:23.166] [info]  download-progress 100
+[2023-06-29 18:20:23.173] [info]  update-downloaded
+[2023-06-29 18:20:44.156] [info]  application version: 0.0.16
+[2023-06-29 18:20:46.197] [info]  in ipc getdata
+[2023-06-29 18:20:49.332] [info]  checking-for-update
+[2023-06-29 18:20:51.085] [info]  update-not-available
+[2023-06-29 18:21:44.323] [info]  checking-for-update
+[2023-06-29 18:21:45.331] [info]  update-not-available
+[2023-06-29 18:22:44.335] [info]  checking-for-update
+[2023-06-29 18:22:45.714] [info]  update-not-available
+[2023-06-29 18:23:44.346] [info]  checking-for-update
+[2023-06-29 18:23:45.902] [info]  update-not-available
+[2023-06-29 18:24:44.360] [info]  checking-for-update
+[2023-06-29 18:24:45.359] [info]  update-not-available
+[2023-06-29 18:25:44.372] [info]  checking-for-update
+[2023-06-29 18:25:45.659] [info]  update-not-available
+[2023-06-29 18:26:44.374] [info]  checking-for-update
+[2023-06-29 18:26:46.146] [info]  update-not-available
+[2023-06-29 18:27:44.383] [info]  checking-for-update
+[2023-06-29 18:27:45.119] [info]  update-not-available
+[2023-06-29 18:28:44.398] [info]  checking-for-update
+[2023-06-29 18:28:45.389] [info]  update-not-available
+[2023-06-29 18:29:44.400] [info]  checking-for-update
+[2023-06-29 18:29:45.832] [info]  update-not-available
+[2023-06-29 18:30:44.413] [info]  checking-for-update
+[2023-06-29 18:30:45.473] [info]  update-not-available
+[2023-06-29 18:31:44.426] [info]  checking-for-update
+[2023-06-29 18:31:45.906] [info]  update-not-available
+[2023-06-29 18:32:44.428] [info]  checking-for-update
+[2023-06-29 18:32:45.367] [info]  update-not-available
+[2023-06-29 18:33:44.439] [info]  checking-for-update
+[2023-06-29 18:33:45.371] [info]  update-not-available
+[2023-06-29 18:34:44.452] [info]  checking-for-update
+[2023-06-29 18:34:45.938] [info]  update-not-available
+[2023-06-29 18:35:44.463] [info]  checking-for-update
+[2023-06-29 18:35:46.139] [info]  update-not-available
+[2023-06-29 18:36:44.478] [info]  checking-for-update
+[2023-06-29 18:36:45.769] [info]  update-not-available
+[2023-06-29 18:37:44.484] [info]  checking-for-update
+[2023-06-29 18:37:45.653] [info]  update-not-available
+[2023-06-29 18:38:44.498] [info]  checking-for-update
+[2023-06-29 18:38:45.998] [info]  update-not-available
+[2023-06-29 18:39:44.509] [info]  checking-for-update
+[2023-06-29 18:39:45.581] [info]  update-not-available
+[2023-06-29 18:40:44.512] [info]  checking-for-update
+[2023-06-29 18:40:46.084] [info]  update-not-available
+[2023-06-29 18:41:12.925] [info]  application version: 0.0.16
+[2023-06-29 18:41:44.527] [info]  checking-for-update
+[2023-06-29 18:41:46.193] [info]  update-not-available
+[2023-06-29 18:42:44.533] [info]  checking-for-update
+[2023-06-29 18:42:45.912] [info]  update-not-available
+[2023-06-29 18:43:44.537] [info]  checking-for-update
+[2023-06-29 18:43:46.102] [info]  update-not-available
+[2023-06-29 18:44:44.548] [info]  checking-for-update
+[2023-06-29 18:44:45.949] [info]  update-not-available
