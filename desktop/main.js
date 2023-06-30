@@ -1,4 +1,13 @@
 "use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.win = void 0;
 const electron_1 = require("electron");
@@ -14,6 +23,7 @@ const serve = args.some(function (val) {
 let updater = null;
 let progressBar;
 let notification;
+let downloadPercent;
 let updateWindow = null;
 electron_updater_1.autoUpdater.autoDownload = false;
 log.transports.file.resolvePath = () => path.join('C:/Users/Administrator/Desktop/minal/angular-autoupdate/', 'logs/main.log');
@@ -47,6 +57,9 @@ function createWindow() {
     });
     if (serve) {
         exports.win.loadURL('http://localhost:4201');
+        // win.loadURL(url.format({
+        //     pathname: path.join(__dirname, '../dist/index.html'), protocol: 'file:', slashes: true
+        // }));
     }
     else {
         exports.win.loadURL(url.format({
@@ -74,7 +87,7 @@ function showNotification(title = "New Notification", body) {
 function startUpdateTimer() {
     setInterval(() => {
         electron_updater_1.autoUpdater.checkForUpdates();
-    }, 60000);
+    }, 18000000);
     setTimeout(() => {
         electron_updater_1.autoUpdater.checkForUpdates();
     }, 5000);
@@ -111,13 +124,15 @@ function createUpdateDialog(info) {
 function startDownload() {
     log.info('strat download');
     progressBar = new ProgressBar({
-        indeterminate: false,
+        indeterminate: true,
         detail: 'Downloading...',
         title: 'Auto Updater',
     });
     progressBar
         .on('progress', function (value) {
-        progressBar.detail = `Value ${value} out of ${progressBar.getOptions().maxValue}...`;
+        log.info('progress value', value);
+        log.info('progress downloadPercent', downloadPercent);
+        progressBar.detail = `Value ${downloadPercent} out of 100...`;
     })
         .on('completed', function () {
         log.info(`completed...`);
@@ -159,6 +174,8 @@ electron_updater_1.autoUpdater.on('checking-for-update', () => {
 });
 electron_updater_1.autoUpdater.on('download-progress', (progress) => {
     // showNotification("New version detected, downloading, please wait" + progress.percent);
+    exports.win.setProgressBar(progress.percent);
+    downloadPercent = progress.percent;
     log.info('download-progress', progress.percent);
 });
 electron_updater_1.autoUpdater.on('update-downloaded', () => {
@@ -184,10 +201,12 @@ electron_updater_1.autoUpdater.on('update-not-available', () => {
 electron_updater_1.autoUpdater.on('error', (err) => {
     log.info('error', err);
 });
-electron_1.ipcMain.on("getData", (event, args) => {
-    log.info('in ipc getdata');
-    event.reply("getDataResponse", {
-        data: electron_1.app.getVersion()
-    });
-});
+electron_1.ipcMain.on('get-items', (event) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        event.returnValue = electron_1.app.getVersion();
+    }
+    catch (err) {
+        throw err;
+    }
+}));
 //# sourceMappingURL=main.js.map

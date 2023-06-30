@@ -15,6 +15,7 @@ export let win: any;
 let updater = null;
 let progressBar;
 let notification;
+let downloadPercent;
 let updateWindow = null;
 
 autoUpdater.autoDownload = false;
@@ -53,6 +54,9 @@ function createWindow() {
 
     if (serve) {
         win.loadURL('http://localhost:4201');
+        // win.loadURL(url.format({
+        //     pathname: path.join(__dirname, '../dist/index.html'), protocol: 'file:', slashes: true
+        // }));
     } else {
         win.loadURL(url.format({
             pathname: path.join(__dirname, '../dist/index.html'), protocol: 'file:', slashes: true
@@ -84,7 +88,7 @@ function showNotification(title = "New Notification", body) {
 function startUpdateTimer() {
     setInterval(() => {
         autoUpdater.checkForUpdates();
-    }, 60000);
+    }, 18000000);
     setTimeout(() => {
         autoUpdater.checkForUpdates();
     }, 5000);
@@ -123,13 +127,15 @@ function createUpdateDialog(info) {
 function startDownload() {
     log.info('strat download')
     progressBar = new ProgressBar({
-        indeterminate: false,
+        indeterminate: true,
         detail: 'Downloading...',
         title: 'Auto Updater',
     });
     progressBar
         .on('progress', function (value) {
-            progressBar.detail = `Value ${value} out of ${progressBar.getOptions().maxValue}...`;
+            log.info('progress value', value);
+            log.info('progress downloadPercent', downloadPercent);
+            progressBar.detail = `Value ${downloadPercent} out of 100...`;
         })
         .on('completed', function () {
             log.info(`completed...`);
@@ -176,6 +182,8 @@ autoUpdater.on('checking-for-update', () => {
 
 autoUpdater.on('download-progress', (progress) => {
     // showNotification("New version detected, downloading, please wait" + progress.percent);
+    win.setProgressBar(progress.percent);
+    downloadPercent = progress.percent;
     log.info('download-progress', progress.percent);
 })
 
@@ -206,9 +214,10 @@ autoUpdater.on('error', (err) => {
     log.info('error', err);
 })
 
-ipcMain.on("getData", (event, args) => {
-    log.info('in ipc getdata')
-    event.reply("getDataResponse", {
-        data: app.getVersion()
-    });
+ipcMain.on('get-items', async (event: any) => {
+    try {
+        event.returnValue = app.getVersion();
+    } catch (err) {
+        throw err;
+    }
 });
